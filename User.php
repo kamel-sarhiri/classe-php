@@ -1,7 +1,7 @@
 <?php
-session_start();
-// Création des classes
+session_start(); // On démarre la session AVANT toute chose
 
+// Création des classes
 class User {
     /* Propriétés */
     private $id;
